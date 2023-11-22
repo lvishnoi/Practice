@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class HighestAvgV2 {
     public static void main(String[] args) {
-        String[][] file= { {"Shrikanth", "20", "30" ,"10"}, {"Ram" ,"100", "50", "10"}};
+        String[][] file = {{"Shrikanth", "20", "30", "10"}, {"Ram", "100", "50", "10"}};
         HashMap<String, Double> hm = new HashMap<>();
 
         for (String[] strings : file) {
@@ -19,7 +19,7 @@ public class HighestAvgV2 {
         }
 
         double maxAvg = Double.MIN_VALUE;
-        String name  = "";
+        String name = "";
 
         for (Map.Entry<String, Double> entry : hm.entrySet()) {
             if (maxAvg < entry.getValue()) {

@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 // Given an array of strings. Each string has an IP address and the user mentioned. Find out the maximum accessed IP address
 public class MaxAccessedIP {
     public static void main(String[] args) {
-        String[] ipAdd = new String[]{"10.1.1.1 - james" ,"10.1.1.1 - frank" ,"10.1.1.2 - sam"};
+        String[] ipAdd = new String[]{"10.1.1.1 - james", "10.1.1.1 - frank", "10.1.1.2 - sam"};
         Map<String, Integer> hm = new HashMap<>();
 
         for (String s : ipAdd) {

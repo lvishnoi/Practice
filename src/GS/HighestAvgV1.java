@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class HighestAvgV1 {
     public static void main(String[] args) {
-        String[] marks = new String[]{"Name1 , 90", "Name2 , 85","Name1 , 20"};
+        String[] marks = new String[]{"Name1 , 90", "Name2 , 85", "Name1 , 20"};
         HashMap<String, Double> hm = new HashMap<>();
 
         for (String s : marks) {
